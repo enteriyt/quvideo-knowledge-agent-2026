@@ -1,0 +1,158 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "先检索相关制度与版本"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 2,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 3,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 4,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 5,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 6,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 7,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 8,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 9,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 10,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 11,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 12,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "工具暂时失败，重试该读取操作"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  }
+]

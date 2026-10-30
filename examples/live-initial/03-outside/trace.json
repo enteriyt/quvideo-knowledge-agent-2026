@@ -1,0 +1,40 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "action": "search",
+      "query": "火星基地的天气如何？",
+      "reason": "Searching for information about the weather at Mars bases."
+    },
+    "observation": {
+      "ok": true,
+      "documents": [],
+      "total": 0
+    }
+  },
+  {
+    "step": 2,
+    "action": {
+      "action": "read",
+      "document_id": "mars_base_weather_123",
+      "reason": "No documents found; attempting to read a document with a different ID."
+    },
+    "observation": {
+      "ok": false,
+      "error": "search_before_read",
+      "retryable": false
+    }
+  },
+  {
+    "step": 3,
+    "action": {
+      "action": "finish",
+      "status": "incomplete",
+      "reason": "No documents were found for the Mars base weather question. The search and read actions failed, and no relevant information was retrieved."
+    },
+    "observation": {
+      "ok": true,
+      "status": "incomplete"
+    }
+  }
+]

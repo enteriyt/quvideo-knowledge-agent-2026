@@ -1,0 +1,14 @@
+[
+  {
+    "step": 0,
+    "action": {
+      "action": "input_validation",
+      "reason": "原始问题为空，直接请求补充"
+    },
+    "observation": {
+      "ok": false,
+      "error": "missing_question",
+      "model_called": false
+    }
+  }
+]

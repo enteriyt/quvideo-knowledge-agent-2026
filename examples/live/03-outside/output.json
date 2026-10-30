@@ -1,0 +1,57 @@
+{
+  "question": "火星基地的天气如何？",
+  "resolved_question": "火星基地的天气如何？",
+  "status": "out_of_scope",
+  "answer": "知识库无支持资料，请补充权威文档",
+  "citations": [],
+  "knowledge_gaps": [
+    "知识库无支持资料，请补充权威文档"
+  ],
+  "conflicts": [],
+  "mode": "live_model",
+  "model": "qwen3-1.7b",
+  "steps": 3,
+  "system_prompt_sha256": "f9eff2039f214ba2ce1e84b3ac9dbb942cbb6f679d5fdda0b4e6f296648b79df",
+  "max_steps": 12,
+  "elapsed_seconds": 5.4757,
+  "trace": [
+    {
+      "step": 1,
+      "action": {
+        "action": "search",
+        "query": "火星基地的天气如何？",
+        "reason": "搜索火星基地的天气情况。"
+      },
+      "observation": {
+        "ok": true,
+        "documents": [],
+        "total": 0
+      }
+    },
+    {
+      "step": 2,
+      "action": {
+        "action": "search",
+        "query": "火星基地的天气如何？",
+        "reason": "搜索火星基地的天气情况。"
+      },
+      "observation": {
+        "ok": true,
+        "documents": [],
+        "total": 0
+      }
+    },
+    {
+      "step": 3,
+      "action": {
+        "action": "finish",
+        "status": "out_of_scope",
+        "reason": "未找到与火星基地天气相关的信息。"
+      },
+      "observation": {
+        "ok": true,
+        "status": "out_of_scope"
+      }
+    }
+  ]
+}

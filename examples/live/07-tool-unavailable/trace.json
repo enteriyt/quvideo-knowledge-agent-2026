@@ -1,0 +1,66 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "搜索产品支持字幕的相关信息。"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 2,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "搜索产品支持字幕的相关信息。"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 3,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "搜索产品支持字幕的相关信息。"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 4,
+    "action": {
+      "action": "search",
+      "query": "产品支持字幕吗？",
+      "reason": "搜索产品支持字幕的相关信息。"
+    },
+    "observation": {
+      "ok": false,
+      "error": "simulated_temporary_failure",
+      "retryable": true
+    }
+  },
+  {
+    "step": 5,
+    "action": {
+      "action": "finish",
+      "status": "incomplete",
+      "reason": "工具持续返回模拟临时故障，无法获取有效信息。"
+    },
+    "observation": {
+      "ok": true,
+      "status": "incomplete"
+    }
+  }
+]

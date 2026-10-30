@@ -1,0 +1,81 @@
+{
+  "mode": "live_model",
+  "model": "qwen3-1.7b",
+  "local_inference": true,
+  "passed": 8,
+  "total": 8,
+  "cases": [
+    {
+      "case": "01-clear",
+      "expected": "answered",
+      "actual": "answered",
+      "passed": true,
+      "steps": 3,
+      "elapsed_seconds": 8.5448,
+      "mode": "live_model"
+    },
+    {
+      "case": "02-conflict",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "elapsed_seconds": 11.2489,
+      "mode": "live_model"
+    },
+    {
+      "case": "03-outside",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope",
+      "passed": true,
+      "steps": 3,
+      "elapsed_seconds": 5.4757,
+      "mode": "live_model"
+    },
+    {
+      "case": "04-paraphrase",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "elapsed_seconds": 13.2701,
+      "mode": "live_model"
+    },
+    {
+      "case": "05-follow-up",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "elapsed_seconds": 12.5255,
+      "mode": "live_model"
+    },
+    {
+      "case": "06-tool-recovery",
+      "expected": "answered",
+      "actual": "answered",
+      "passed": true,
+      "steps": 5,
+      "elapsed_seconds": 13.2076,
+      "mode": "live_model"
+    },
+    {
+      "case": "07-tool-unavailable",
+      "expected": "incomplete",
+      "actual": "incomplete",
+      "passed": true,
+      "steps": 5,
+      "elapsed_seconds": 9.9767,
+      "mode": "live_model"
+    },
+    {
+      "case": "08-missing-question",
+      "expected": "needs_input",
+      "actual": "needs_input",
+      "passed": true,
+      "steps": 0,
+      "elapsed_seconds": 0.0001,
+      "mode": "live_model"
+    }
+  ]
+}

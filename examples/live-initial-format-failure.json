@@ -1,0 +1,23 @@
+{
+  "question": "产品支持字幕吗？",
+  "resolved_question": "产品支持字幕吗？",
+  "status": "incomplete",
+  "answer": "模型调用失败或返回格式无效；任务未完成",
+  "citations": [],
+  "knowledge_gaps": [
+    "模型调用失败或返回格式无效；任务未完成"
+  ],
+  "conflicts": [],
+  "mode": "live_model",
+  "model": "qwen3-1.7b",
+  "steps": 1,
+  "max_steps": 12,
+  "elapsed_seconds": 2.0212,
+  "trace": [
+    {
+      "step": 1,
+      "action": "model_error",
+      "error": "ValueError"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "mode": "offline_mock",
+  "live_model_executed": false,
+  "cases": [
+    {
+      "case": "01-clear",
+      "expected": "answered",
+      "actual": "answered",
+      "passed": true,
+      "steps": 3,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "02-conflict",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "03-outside",
+      "expected": "out_of_scope",
+      "actual": "out_of_scope",
+      "passed": true,
+      "steps": 3,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "04-paraphrase",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "05-follow-up",
+      "expected": "conflict",
+      "actual": "conflict",
+      "passed": true,
+      "steps": 4,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "06-tool-recovery",
+      "expected": "answered",
+      "actual": "answered",
+      "passed": true,
+      "steps": 4,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "07-tool-unavailable",
+      "expected": "incomplete",
+      "actual": "incomplete",
+      "passed": true,
+      "steps": 12,
+      "mode": "offline_mock"
+    },
+    {
+      "case": "08-missing-question",
+      "expected": "needs_input",
+      "actual": "needs_input",
+      "passed": true,
+      "steps": 0,
+      "mode": "offline_mock"
+    }
+  ],
+  "test_exit_code": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "command": "python scripts/evaluate.py"
+}

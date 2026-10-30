@@ -1,0 +1,27 @@
+test_cannot_answer_over_observed_conflict (test_agent.AgentTests.test_cannot_answer_over_observed_conflict) ... ok
+test_cannot_skip_other_conflicting_document (test_agent.AgentTests.test_cannot_skip_other_conflicting_document) ... ok
+test_clear_answer_exact_citation (test_agent.AgentTests.test_clear_answer_exact_citation) ... ok
+test_conflict_does_not_choose_newest (test_agent.AgentTests.test_conflict_does_not_choose_newest) ... ok
+test_fake_quote_field_rejected (test_agent.AgentTests.test_fake_quote_field_rejected) ... ok
+test_history_only_supplies_subject (test_agent.AgentTests.test_history_only_supplies_subject) ... ok
+test_input_validation (test_agent.AgentTests.test_input_validation) ... ok
+test_invalid_model_json (test_agent.AgentTests.test_invalid_model_json) ... ok
+test_live_configuration_not_silently_mocked (test_agent.AgentTests.test_live_configuration_not_silently_mocked) ... ok
+test_live_http_adapter_and_json_response (test_agent.AgentTests.test_live_http_adapter_and_json_response) ... ok
+test_missing_question (test_agent.AgentTests.test_missing_question) ... ok
+test_mutated_document_changes_answer (test_agent.AgentTests.test_mutated_document_changes_answer) ... ok
+test_no_read_no_answer (test_agent.AgentTests.test_no_read_no_answer) ... ok
+test_only_explicit_loopback_allows_plain_http (test_agent.AgentTests.test_only_explicit_loopback_allows_plain_http) ... ok
+test_outside_and_rewrite (test_agent.AgentTests.test_outside_and_rewrite) ... ok
+test_paraphrase (test_agent.AgentTests.test_paraphrase) ... ok
+test_permanent_failure_stops (test_agent.AgentTests.test_permanent_failure_stops) ... ok
+test_read_requires_search (test_agent.AgentTests.test_read_requires_search) ... ok
+test_removed_conflict_changes_status (test_agent.AgentTests.test_removed_conflict_changes_status) ... ok
+test_repeated_runs_isolate_state (test_agent.AgentTests.test_repeated_runs_isolate_state) ... ok
+test_tool_exception_is_failure (test_agent.AgentTests.test_tool_exception_is_failure) ... ok
+test_transient_failure_changes_path (test_agent.AgentTests.test_transient_failure_changes_path) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.023s
+
+OK

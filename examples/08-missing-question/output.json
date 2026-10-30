@@ -1,0 +1,31 @@
+{
+  "question": "",
+  "resolved_question": "",
+  "status": "needs_input",
+  "answer": "请补充明确问题",
+  "citations": [],
+  "knowledge_gaps": [
+    "请补充明确问题"
+  ],
+  "conflicts": [],
+  "mode": "offline_mock",
+  "model": null,
+  "steps": 0,
+  "system_prompt_sha256": "f9eff2039f214ba2ce1e84b3ac9dbb942cbb6f679d5fdda0b4e6f296648b79df",
+  "max_steps": 12,
+  "elapsed_seconds": 0.0,
+  "trace": [
+    {
+      "step": 0,
+      "action": {
+        "action": "input_validation",
+        "reason": "原始问题为空，直接请求补充"
+      },
+      "observation": {
+        "ok": false,
+        "error": "missing_question",
+        "model_called": false
+      }
+    }
+  ]
+}

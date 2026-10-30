@@ -1,0 +1,40 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "action": "search",
+      "query": "火星基地的天气如何？",
+      "reason": "搜索火星基地的天气情况。"
+    },
+    "observation": {
+      "ok": true,
+      "documents": [],
+      "total": 0
+    }
+  },
+  {
+    "step": 2,
+    "action": {
+      "action": "search",
+      "query": "火星基地的天气如何？",
+      "reason": "搜索火星基地的天气情况。"
+    },
+    "observation": {
+      "ok": true,
+      "documents": [],
+      "total": 0
+    }
+  },
+  {
+    "step": 3,
+    "action": {
+      "action": "finish",
+      "status": "out_of_scope",
+      "reason": "未找到与火星基地天气相关的信息。"
+    },
+    "observation": {
+      "ok": true,
+      "status": "out_of_scope"
+    }
+  }
+]

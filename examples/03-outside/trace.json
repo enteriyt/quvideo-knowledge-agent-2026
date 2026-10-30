@@ -1,0 +1,40 @@
+[
+  {
+    "step": 1,
+    "action": {
+      "action": "search",
+      "query": "火星基地的天气如何？",
+      "reason": "先检索相关制度与版本"
+    },
+    "observation": {
+      "ok": true,
+      "documents": [],
+      "total": 0
+    }
+  },
+  {
+    "step": 2,
+    "action": {
+      "action": "search",
+      "query": "火星基地的天气如何？ 制度 FAQ 产品说明",
+      "reason": "无命中，扩展检索表达"
+    },
+    "observation": {
+      "ok": true,
+      "documents": [],
+      "total": 0
+    }
+  },
+  {
+    "step": 3,
+    "action": {
+      "action": "finish",
+      "status": "out_of_scope",
+      "reason": "两次检索仍无依据"
+    },
+    "observation": {
+      "ok": true,
+      "status": "out_of_scope"
+    }
+  }
+]
